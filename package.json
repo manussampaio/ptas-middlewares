@@ -1,0 +1,25 @@
+{
+  "name": "ptas-middlewares",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manussampaio/ptas-middlewares.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/manussampaio/ptas-middlewares/issues"
+  },
+  "homepage": "https://github.com/manussampaio/ptas-middlewares#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
