@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node --watch server.js"
+    "dev": "nodemon --watch server.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,8 @@
   "homepage": "https://github.com/manussampaio/ptas-middlewares#readme",
   "dependencies": {
     "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
